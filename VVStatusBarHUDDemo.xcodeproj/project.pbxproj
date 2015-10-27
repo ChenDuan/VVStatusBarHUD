@@ -7,23 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D27DB9B1BDFB80A00AFBCD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DB9A1BDFB80A00AFBCD5 /* main.m */; };
-		2D27DB9E1BDFB80A00AFBCD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DB9D1BDFB80A00AFBCD5 /* AppDelegate.m */; };
-		2D27DBA11BDFB80A00AFBCD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DBA01BDFB80A00AFBCD5 /* ViewController.m */; };
 		2D27DBA41BDFB80A00AFBCD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DBA21BDFB80A00AFBCD5 /* Main.storyboard */; };
 		2D27DBA61BDFB80A00AFBCD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DBA51BDFB80A00AFBCD5 /* Assets.xcassets */; };
 		2D27DBA91BDFB80A00AFBCD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DBA71BDFB80A00AFBCD5 /* LaunchScreen.storyboard */; };
 		2D27DBB31BDFB99400AFBCD5 /* VVStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DBB21BDFB99400AFBCD5 /* VVStatusBarHUD.m */; settings = {ASSET_TAGS = (); }; };
 		2D27DBB51BDFBDA600AFBCD5 /* VVStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2D27DBB41BDFBDA600AFBCD5 /* VVStatusBarHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		2D27DBBD1BDFD36400AFBCD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DBB91BDFD36400AFBCD5 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		2D27DBBE1BDFD36400AFBCD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DBBA1BDFD36400AFBCD5 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		2D27DBBF1BDFD36400AFBCD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D27DBBC1BDFD36400AFBCD5 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D27DB961BDFB80A00AFBCD5 /* VVStatusBarHUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVStatusBarHUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D27DB9A1BDFB80A00AFBCD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D27DB9C1BDFB80A00AFBCD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2D27DB9D1BDFB80A00AFBCD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2D27DB9F1BDFB80A00AFBCD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2D27DBA01BDFB80A00AFBCD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2D27DBA31BDFB80A00AFBCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D27DBA51BDFB80A00AFBCD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D27DBA81BDFB80A00AFBCD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +26,11 @@
 		2D27DBB11BDFB99400AFBCD5 /* VVStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVStatusBarHUD.h; sourceTree = "<group>"; };
 		2D27DBB21BDFB99400AFBCD5 /* VVStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVStatusBarHUD.m; sourceTree = "<group>"; };
 		2D27DBB41BDFBDA600AFBCD5 /* VVStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VVStatusBarHUD.bundle; sourceTree = "<group>"; };
+		2D27DBB81BDFD36400AFBCD5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D27DBB91BDFD36400AFBCD5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D27DBBA1BDFD36400AFBCD5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D27DBBB1BDFD36400AFBCD5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D27DBBC1BDFD36400AFBCD5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				2D27DBB01BDFB8FB00AFBCD5 /* VVStatusBarHUD */,
-				2D27DB9C1BDFB80A00AFBCD5 /* AppDelegate.h */,
-				2D27DB9D1BDFB80A00AFBCD5 /* AppDelegate.m */,
-				2D27DB9F1BDFB80A00AFBCD5 /* ViewController.h */,
-				2D27DBA01BDFB80A00AFBCD5 /* ViewController.m */,
-				2D27DBA21BDFB80A00AFBCD5 /* Main.storyboard */,
-				2D27DBA51BDFB80A00AFBCD5 /* Assets.xcassets */,
-				2D27DBA71BDFB80A00AFBCD5 /* LaunchScreen.storyboard */,
-				2D27DBAA1BDFB80A00AFBCD5 /* Info.plist */,
+				2D27DBB71BDFD36400AFBCD5 /* Classes */,
 				2D27DB991BDFB80A00AFBCD5 /* Supporting Files */,
 			);
 			path = VVStatusBarHUDDemo;
@@ -80,7 +73,10 @@
 		2D27DB991BDFB80A00AFBCD5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D27DB9A1BDFB80A00AFBCD5 /* main.m */,
+				2D27DBA21BDFB80A00AFBCD5 /* Main.storyboard */,
+				2D27DBA51BDFB80A00AFBCD5 /* Assets.xcassets */,
+				2D27DBA71BDFB80A00AFBCD5 /* LaunchScreen.storyboard */,
+				2D27DBAA1BDFB80A00AFBCD5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -94,6 +90,18 @@
 			);
 			path = VVStatusBarHUD;
 			sourceTree = SOURCE_ROOT;
+		};
+		2D27DBB71BDFD36400AFBCD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D27DBB81BDFD36400AFBCD5 /* AppDelegate.h */,
+				2D27DBB91BDFD36400AFBCD5 /* AppDelegate.m */,
+				2D27DBBA1BDFD36400AFBCD5 /* main.m */,
+				2D27DBBB1BDFD36400AFBCD5 /* ViewController.h */,
+				2D27DBBC1BDFD36400AFBCD5 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -167,10 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D27DBA11BDFB80A00AFBCD5 /* ViewController.m in Sources */,
+				2D27DBBD1BDFD36400AFBCD5 /* AppDelegate.m in Sources */,
+				2D27DBBE1BDFD36400AFBCD5 /* main.m in Sources */,
+				2D27DBBF1BDFD36400AFBCD5 /* ViewController.m in Sources */,
 				2D27DBB31BDFB99400AFBCD5 /* VVStatusBarHUD.m in Sources */,
-				2D27DB9E1BDFB80A00AFBCD5 /* AppDelegate.m in Sources */,
-				2D27DB9B1BDFB80A00AFBCD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +325,7 @@
 				2D27DBAF1BDFB80A00AFBCD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
