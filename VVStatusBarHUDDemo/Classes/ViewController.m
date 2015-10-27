@@ -39,7 +39,7 @@
 
 - (IBAction)showText
 {
-    [VVStatusBarHUD showText:@"呵呵呵呵呵呵"];
+    [VVStatusBarHUD showText:@"呵呵!"];
 }
 
 - (IBAction)showLoading
